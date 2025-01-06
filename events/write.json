@@ -1,0 +1,7 @@
+{
+    "action": "write",
+    "data": {
+        "name": "Test Record",
+        "description": "This is a test description."
+    }
+}
