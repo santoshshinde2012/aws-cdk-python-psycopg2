@@ -64,7 +64,7 @@ command.
 ## Testing
 
 - `cdk synth > template.yaml`
-  - `sam build`
+- `sam build`
 - `sam local invoke MyLambdaFunction --no-event -t ./cdk.out/AwsCdkPythonPsycopg2Stack.template.json`
 - Read : `sam local invoke MyLambdaFunction --event events/read.json -t ./cdk.out/AwsCdkPythonPsycopg2Stack.template.json`
 - Write : `sam local invoke MyLambdaFunction --event events/write.json -t ./cdk.out/AwsCdkPythonPsycopg2Stack.template.json`
